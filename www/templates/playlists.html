@@ -1,0 +1,44 @@
+<ion-view hide-nav-bar="true">
+  <ion-header-bar style="background-color: #ffffff;">
+<!--   	<button class="button button-icon button-clear ion-navicon" menu-toggle="left" style="color: #909090;"></button> -->
+
+	<img src="img/menu-button.png" menu-toggle="left" style="width: 55px;">
+
+
+<!--   <ion-header-bar style="background: url('../img/top-bar.png'); background-size: 300px;"> -->
+<!--   	<button class="button button-icon button-clear ion-navicon" menu-toggle="left" style="color: #909090;"></button> -->
+
+<!-- 	<img src="img/menu-button.png" menu-toggle="left">
+ -->
+
+
+
+
+  </ion-header-bar>
+  <ion-content class="gray-background">
+
+
+	<div class="title-style geometria-font"> Welcome to </div>
+
+	<img src="img/logo.png" class="logo-styling">
+
+	<div class="paragraph-styling geometria-font">
+		Log in to engage in an innovative approach to education and training
+	</div>
+
+	<form style="padding-bottom: 80px;">
+		<div class="form-text geometria-font">Email</div>
+		<input class="input-styling" type="text" name="emal" data-ng-model="data.email">
+
+		<div class="form-text geometria-font" style="padding-top: 4px;">Password</div>
+		<input class="input-styling" type="text" name="password" data-ng-model="data.password">
+	</form>
+
+	<div style="align: center;">
+		<img src="img/resume_button.png" class="login-button" style="right: 50%;" ng-click="resume();">
+		<img src="img/begin_button.png" class="login-button" style="left: 50%;" ng-click="begin();">
+	</div>
+
+
+  </ion-content>
+</ion-view>
